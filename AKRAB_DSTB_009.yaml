@@ -1,20 +1,20 @@
 proxies:
-- name: danuWs09a
+- name: danuWs01
   type: trojan
-  server: crl.identrust.com
+  server: 172.67.199.34
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09b
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs09
   type: trojan
-  server: teams.live.com
+  server: crl.identrust.com
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
