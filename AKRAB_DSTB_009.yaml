@@ -1,5 +1,5 @@
 proxies:
-- name: danuWs09
+- name: danuWs09a
   type: trojan
   server: crl.identrust.com
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-magna.sshpremium.my.id
-- name: danuWs09
+- name: danuWs09b
   type: trojan
   server: 172.67.199.34
   port: 443
