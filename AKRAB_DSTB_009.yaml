@@ -44,8 +44,13 @@ proxies:
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
-  sni: gomarketplacefront-cf.zoom.us
+  sni: gomarketplacecontent-cf.zoom.us
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
 - name: danuGo03
   type: trojan
   server: crl.identrust.com
