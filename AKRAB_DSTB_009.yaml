@@ -1,44 +1,5 @@
 proxies:
-- name: danuWs09
-  type: trojan
-  server: 172.67.199.34
-  port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
-  udp: true
-  sni: id-magna.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09b
-  type: trojan
-  server: midtrans.com
-  port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
-  udp: true
-  sni: id-magna.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09c
-  type: trojan
-  server: crl.identrust.com
-  port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
-  udp: true
-  sni: id-magna.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09SNI
+- name: danuWs09-SNI
   type: trojan
   server: id-magna.sshpremium.my.id
   port: 443
@@ -51,6 +12,45 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacecontent-cf.zoom.us
+- name: danuWs09-IP34
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  udp: true
+  sni: id-magna.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-magna.sshpremium.my.id
+- name: danuWs09-Identrust
+  type: trojan
+  server: crl.identrust.com
+  port: 443
+  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  udp: true
+  sni: id-magna.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-magna.sshpremium.my.id
+- name: danuWs09-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  udp: true
+  sni: id-magna.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-magna.sshpremium.my.id
 - name: danuGo03
   type: trojan
   server: crl.identrust.com
