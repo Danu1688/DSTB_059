@@ -1,7 +1,7 @@
 proxies:
 - name: danuWs09
   type: trojan
-  server: wsindo.aryossh.my.id
+  server: midtrans.com
   port: 443
   password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
