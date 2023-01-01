@@ -51,7 +51,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-magna.sshpremium.my.id
-- name: danuWs09-Midtranss
+- name: danuWs09-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
