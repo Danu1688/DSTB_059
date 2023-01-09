@@ -3,20 +3,20 @@ proxies:
   type: trojan
   server: 172.67.199.34
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-media.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-media.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09a-SNIa
   type: trojan
-  server: id-media.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
   sni: gomarketplacecontent-cf.zoom.us
   skip-cert-verify: true
@@ -27,9 +27,9 @@ proxies:
       Host: gomarketplacecontent-cf.zoom.us
 - name: danuWs09a-SNIb
   type: trojan
-  server: id-media.sshpremium.my.id
+  server: sg-cth.sshpremium.my.id
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
   sni: gomarketplacefront-cf.zoom.us
   skip-cert-verify: true
@@ -42,38 +42,38 @@ proxies:
   type: trojan
   server: crl.identrust.com
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-media.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-media.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09a-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-media.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-media.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
 - name: danuWs09a
   type: trojan
   server: 172.67.199.34
   port: 443
-  password: 3b25305d-d999-4160-a414-f6f4955b2a55
+  password: 925e4d12-eb6a-4aa7-ba8a-ac640b82557f
   udp: true
-  sni: id-media.sshpremium.my.id
+  sni: sg-cth.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-media.sshpremium.my.id
+      Host: sg-cth.sshpremium.my.id
