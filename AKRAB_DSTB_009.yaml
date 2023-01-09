@@ -1,20 +1,20 @@
 proxies:
-- name: danuWs09-IP34
+- name: danuWs09a-IP34
   type: trojan
   server: 172.67.199.34
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09-SNIa
+      Host: id-media.sshpremium.my.id
+- name: danuWs09a-SNIa
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: id-media.sshpremium.my.id
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
@@ -25,9 +25,9 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacecontent-cf.zoom.us
-- name: danuWs09-SNIb
+- name: danuWs09a-SNIb
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: id-media.sshpremium.my.id
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
@@ -38,42 +38,42 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs09-Identrust
+- name: danuWs09a-Identrust
   type: trojan
   server: crl.identrust.com
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09-Midtrans
+      Host: id-media.sshpremium.my.id
+- name: danuWs09a-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
-- name: danuWs09
+      Host: id-media.sshpremium.my.id
+- name: danuWs09a
   type: trojan
   server: 172.67.199.34
   port: 443
   password: 3b25305d-d999-4160-a414-f6f4955b2a55
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: id-media.sshpremium.my.id
